@@ -1,0 +1,14 @@
+import tensorflow as tf
+import tf2onnx
+
+# Utilisation de l'API Fonctionnelle pour éviter les erreurs de mapping (KeyError)
+inputs = tf.keras.Input(shape=(3,), name="input")
+x = tf.keras.layers.Dense(8, activation='relu')(inputs)
+outputs = tf.keras.layers.Dense(2, activation='softmax', name="output")(x)
+model = tf.keras.Model(inputs=inputs, outputs=outputs)
+
+# Conversion et sauvegarde en ONNX avec la signature explicite
+spec = (tf.TensorSpec((None, 3), tf.float32, name="input"),)
+tf2onnx.convert.from_keras(model, input_signature=spec, output_path="meteostat_mini.onnx")
+
+print("Fichier meteostat_mini.onnx généré avec succès !")
