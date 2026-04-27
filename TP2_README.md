@@ -345,6 +345,9 @@ STM32 IpAddress: 192.168.141.128
 ```
 
 ### Vérification par ping
+avant on doit s'assuer qu'on travaille avec nx_tcp:
+<img width="1048" height="106" alt="image" src="https://github.com/user-attachments/assets/accc2cd4-a259-4978-888e-405151f28f79" />
+et apres:
 <img width="715" height="281" alt="image" src="https://github.com/user-attachments/assets/a6fabf7c-0f2c-4906-96fc-938218f3675c" />
 
 Une fois l'IP obtenue, depuis un PC sur le même réseau :
