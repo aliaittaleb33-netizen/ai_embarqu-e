@@ -345,6 +345,7 @@ STM32 IpAddress: 192.168.141.128
 ```
 
 ### Vérification par ping
+<img width="715" height="281" alt="image" src="https://github.com/user-attachments/assets/a6fabf7c-0f2c-4906-96fc-938218f3675c" />
 
 Une fois l'IP obtenue, depuis un PC sur le même réseau :
 ```bash
