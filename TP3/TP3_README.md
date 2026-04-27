@@ -15,6 +15,8 @@
 
 ---
 
+
+Pour notre cas on a été obligé de forcer les données a Thingspeak a cause d abscence de fonctionnememnt des capteurs
 ## ☁️ Partie 1 – Collecte des données dans un canal ThingSpeak
 
 ### 1.1 Configuration du canal ThingSpeak
