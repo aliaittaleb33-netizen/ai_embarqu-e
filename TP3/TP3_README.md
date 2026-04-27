@@ -181,6 +181,7 @@ sprintf(http_request,
 ```
 
 ---
+<img width="1918" height="568" alt="image" src="https://github.com/user-attachments/assets/1a555745-54b5-4515-8352-b2eac3712a67" />
 
 ## 🧠 Partie 2 – Entraînement du Modèle IA MeteoStat
 
