@@ -28,6 +28,7 @@ Pour notre cas on a été obligé de forcer les données a Thingspeak a cause d 
    - `Field 2` : Humidité (%RH)
    - `Field 3` : Pression (hPa)
 4. Récupérer la **Write API Key** dans l'onglet *API Keys*
+<img width="733" height="489" alt="image" src="https://github.com/user-attachments/assets/554ad00e-44cd-4ed4-a151-7eea1e4727d9" />
 
 ### 1.2 Envoi des données via HTTP GET (depuis STM32)
 
