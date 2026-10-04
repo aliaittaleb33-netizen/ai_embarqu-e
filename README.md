@@ -80,7 +80,7 @@ jupyter notebook TP1_AI.ipynb
 
 ```
 📦 TP1-AI
- ┗ 📓 TP1_AI.ipynb     # Notebook principal
+ ┗ 📓 Partie_1_AI.ipynb     # Notebook principal
  ┗ 📄 README.md        # Ce fichier
 ```
 
