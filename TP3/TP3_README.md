@@ -1,11 +1,11 @@
-# TP3 – Connectivité Cloud & Entraînement IA MeteoStat
+# Partie 3  – Connectivité Cloud & Entraînement IA MeteoStat
 **Module :** ETRS606 – IA Embarquée | **Université Savoie Mont Blanc**  
 **Plateforme Cloud :** ThingSpeak (MathWorks)  
 **Framework IA :** Python / TensorFlow / Keras
 
 ---
 
-## 📋 Objectifs du TP
+##  Objectifs de cette Partie
 
 - Configurer un canal ThingSpeak pour collecter et visualiser des données IoT
 - Envoyer des données capteurs vers le cloud via HTTP REST
