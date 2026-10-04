@@ -1,11 +1,11 @@
-# TP2 – Interface Capteur & STM32
+# Partie 2 – Interface Capteur & STM32
 **Module :** ETRS606 – IA Embarquée | **Université Savoie Mont Blanc**  
 **Carte principale :** NUCLEO-N657X0 (STM32N657, ARM Cortex-M33, 160 MHz, 320 Ko RAM, 512 Ko Flash)  
 **Carte capteurs :** X-NUCLEO-IKS01A3
 
 ---
 
-## 📋 Objectifs du TP
+##  Objectifs de cette Partie
 
 - Programmer la carte NUCLEO-N657X0 via STM32CubeIDE
 - Maîtriser la communication I²C avec des capteurs MEMS
@@ -14,7 +14,7 @@
 
 ---
 
-## 🛠️ Matériel
+##  Matériel
 
 | Composant | Description |
 |---|---|
@@ -25,7 +25,7 @@
 
 ### Configuration matérielle obligatoire
 
-> ⚠️ **IMPORTANT :** Avant de brancher la carte, vérifier impérativement :
+>  **IMPORTANT :** Avant de brancher la carte, vérifier impérativement :
 
 | Élément | Réglage correct |
 |---|---|
