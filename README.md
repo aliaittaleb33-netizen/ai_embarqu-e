@@ -1,10 +1,10 @@
-# 🧠 TP1 — Introduction aux Réseaux de Neurones avec MNIST
+#  Partie 1 — Introduction aux Réseaux de Neurones avec MNIST
 
 Ce TP explore les fondements des réseaux de neurones denses (fully connected) à travers le dataset **MNIST** (reconnaissance de chiffres manuscrits), en comparant différents choix d'architecture et d'hyperparamètres.
 
 ---
 
-## 📋 Contenu du TP
+##  Contenu du la Partie 1
 
 ### 1. 🔀 Fonctions d'Activation
 Comparaison de 4 architectures sur 10 epochs :
@@ -16,7 +16,7 @@ Comparaison de 4 architectures sur 10 epochs :
 | C | Tanh | 1 (128) | 101 770 | ~97.4% |
 | D | Sigmoid | 1 (128) | 101 770 | ~97.3% |
 
-> ✅ **Meilleur compromis** : Modèle C (Tanh) — bonne précision, loss stable, architecture légère.
+>  **Meilleur compromis** : Modèle C (Tanh) — bonne précision, loss stable, architecture légère.
 
 ---
 
@@ -30,7 +30,7 @@ Même architecture de base (128 neurones, ReLU) testée avec 4 optimiseurs :
 | RMSprop | 97.67% | 0.0979 |
 | Adagrad | 91.15% | 0.3339 |
 
-> ✅ **Meilleur résultat** : RMSprop et Adam, très proches. Adam reste le choix standard.
+>  **Meilleur résultat** : RMSprop et Adam, très proches. Adam reste le choix standard.
 
 ---
 
@@ -45,7 +45,7 @@ Même architecture de base (128 neurones, ReLU) testée avec 4 optimiseurs :
 
 ---
 
-## 🚀 Lancer le notebook
+##  Lancer le notebook
 
 ### Option 1 — Google Colab *(recommandé)*
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
@@ -76,7 +76,7 @@ jupyter notebook TP1_AI.ipynb
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 📦 TP1-AI
@@ -86,7 +86,7 @@ jupyter notebook TP1_AI.ipynb
 
 ---
 
-## 📌 Conclusions clés
+##  Conclusions clés
 
 - Une architecture **sans couche cachée** est insuffisante pour MNIST (~93%).
 - **ReLU** offre la meilleure convergence rapide avec plusieurs couches cachées.
