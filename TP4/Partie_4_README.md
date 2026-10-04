@@ -1,4 +1,4 @@
-# TP4 – Cloud vs Edge AI sur STM32N6
+# Partie 4 – Cloud vs Edge AI sur STM32N6
 **Module :** ETRS606 – IA Embarquée | **Université Savoie Mont Blanc**  
 **Carte :** NUCLEO-N657X0 | **IDE :** STM32CubeIDE 2.1.0  
 **Stack réseau :** NetXDuo (Azure RTOS / ThreadX) | **IA embarquée :** X-CUBE-AI
