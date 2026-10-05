@@ -1,4 +1,4 @@
-#  Partie 1 — Introduction aux Réseaux de Neurones avec MNIST
+#  — Introduction aux Réseaux de Neurones avec MNIST —
 
 Ce TP explore les fondements des réseaux de neurones denses (fully connected) à travers le dataset **MNIST** (reconnaissance de chiffres manuscrits), en comparant différents choix d'architecture et d'hyperparamètres.
 
